@@ -1,7 +1,7 @@
 import streamlit as st
 
 
-    st.write("Empresa:", empresa)
+    
 from modelos import Empresa
 from calculos import calcular_score, diagnostico
 
@@ -51,5 +51,6 @@ if st.button("Analisar"):
     st.write("Classificação:", status)
     st.write("Diagnóstico:", texto)
     
+
 
 
