@@ -1,10 +1,5 @@
 import streamlit as st
 
-st.title("RAIO X FINANCEIRO")
-
-empresa = st.text_input("Empresa")
-
-if st.button("Testar"):
 
     st.write("Empresa:", empresa)
 from modelos import Empresa
@@ -56,4 +51,5 @@ if st.button("Analisar"):
     st.write("Classificação:", status)
     st.write("Diagnóstico:", texto)
     
+
 
