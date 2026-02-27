@@ -118,5 +118,7 @@ if st.button("🔎 Analisar Empresa"):
         if receita > 0:
             margem_calculada = lucro / receita
             st.metric("Margem Real", f"{margem_calculada:.2%}")
+            
 
     st.success(mensagem)
+
