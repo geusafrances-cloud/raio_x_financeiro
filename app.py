@@ -10,7 +10,7 @@ st.set_page_config(
 )
 
 st.title("📊 RAIO X FINANCEIRO")
-st.markdown("### Análise Fundamentalista Simplificada")
+st.markdown("### Análise Simplificada da empresa")
 
 st.divider()
 
@@ -121,4 +121,5 @@ if st.button("🔎 Analisar Empresa"):
             
 
     st.success(mensagem)
+
 
